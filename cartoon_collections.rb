@@ -3,8 +3,9 @@ def roll_call_dwarves(dwarves)# code an argument here
   dwarves.each_with_index {|dwarf, index| puts "#{index + 1}. #{dwarf}"}
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(elements)# code an argument here
   # Your code here
+  elements.each! {|element| element.upcase + "!"}
 end
 
 def long_planeteer_calls# code an argument here
